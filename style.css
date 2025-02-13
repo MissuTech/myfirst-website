@@ -191,3 +191,23 @@ padding-bottom: 40px ;
 }
 
 
+
+@media screen and (max-width: 768px) {
+    .two-col {
+        grid-template-columns: 1fr; /* Stack sections vertically */
+        text-align: center;
+    }
+
+    .services {
+        grid-template-columns: 1fr; /* Stack service boxes */
+        text-align: center;
+    }
+
+    .sv1 img {
+        width: 80px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
